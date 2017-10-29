@@ -1,0 +1,44 @@
+343  yum  install git 
+  344  git
+  345  git 
+  346  pwd
+  347  cd /var/tmp
+  348  mkdir test
+  349  cd test/
+  350  git init
+  351  ls
+  352  git status
+  353  touch a
+  354  git status
+  355  git add a
+  356  git status
+  357  git commit -m "test commit" -a
+  358  git status
+  359  ls
+  360  git status
+  361  vi a
+  362  git status
+  363  git add a
+  364  git commit -m "test commit2 " -a
+  365  git status
+  366  vi a
+  367  git status
+  368  git add a
+  369  git commit -m "test commit23 " -a
+  370  git add a
+  371  git status
+  372  cat a
+  373  git log
+  374  git reset --hard bb5b10016da425e2b9a41fa91d8282d361f0ee04
+  375  cat a
+  376  echo "# linux" >> README.md
+  377  git init
+  378  git add README.md
+  379  git commit -m "first commit"
+  380  git remote add origin https://github.com/vams522675/linux.git
+  381  git push -u origin master
+  382  touch bbb
+  383  git add bbb
+  384  git commit -m "bbb"
+  385  git push -u origin master
+  386  history

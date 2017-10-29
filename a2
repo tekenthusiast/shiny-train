@@ -1,0 +1,29 @@
+nstall git 
+  344  git
+  345  git 
+  346  pwd
+  347  cd /var/tmp
+  348  mkdir test
+  349  cd test/
+  350  git init
+  351  ls
+  352  git status
+  353  touch a
+  354  git status
+  355  git add a
+  356  git status
+  357  git commit -m "test commit" -a
+  358  git status
+  359  ls
+  360  git status
+  361  vi a
+  362  git status
+  363  git add a
+  364  git commit -m "test commit2 " -a
+  365  git status
+  366  vi a
+  367  git status
+  368  git add a
+  369  git commit -m "test commit23 " -a
+  370  git add a
+  371  git status
